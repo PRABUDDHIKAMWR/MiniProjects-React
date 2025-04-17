@@ -1,0 +1,36 @@
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+  font-size: 5em;
+  margin-bottom: 1rem;
+  color: #dd3232;
+}
+
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-btn{
+  width:200px;
+  height: 70px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0 5px;
+  border-radius: 100px;
+  border-color: blue;
+  border: #040308;
+  border-style: double;
+  background-color: hsl(192, 72%, 53%);
+  color: white;
+  cursor: pointer;
+}
+
+.counter-btn:hover{
+  background-color: hsl(214, 72%, 53%);
+  color: white;
+}
