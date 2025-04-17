@@ -2,13 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import color_picker from './color_picker.jsx'
+import Color_picker from './color_picker.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    
+    <Color_picker />
   )
 }
 
